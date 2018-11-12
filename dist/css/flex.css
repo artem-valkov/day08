@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  border: 1px solid black; }
+
+.container {
+  display: flex;
+  border: 1px #ccc solid;
+  height: 200px;
+  flex-wrap: wrap;
+  align-content: flex-start; }
+  .container .logo {
+    height: 100px;
+    width: 100px; }
+  .container .menu {
+    height: 100px;
+    width: 65%; }
+  .container .nav-bar {
+    height: 150px;
+    width: 100px; }
+  .container .news_feed {
+    height: 150px;
+    width: 35%; }
+
+/*
+.container2 {
+  display: flex;
+  border:1px #ccc solid;
+  height:200px;
+  align-content: center;
+
+  .news_feed{
+  height: 150px;
+    width: 100%;
+  }
+}*/
